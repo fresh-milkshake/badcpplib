@@ -234,9 +234,9 @@ g++ -std=c++17 -I./include tests/basic_test.cpp src/badcpplib.cpp -o test_runner
 ### Technical Limitations
 - Template-heavy code increases compilation time
 - Static library compilation has symbol duplication (use direct compilation recommended)
-- No bounds checking in StaticArray::operator[]
-- CircularBuffer silently overwrites old data when full
-- Result::unwrap() throws exceptions (not noexcept)
+- No bounds checking in `StaticArray::operator[]`
+- `CircularBuffer` silently overwrites old data when full
+- `Result::unwrap()` throws exceptions (not noexcept)
 
 ### Design Limitations
 - Some modules have interdependencies
@@ -251,6 +251,7 @@ g++ -std=c++17 -I./include tests/basic_test.cpp src/badcpplib.cpp -o test_runner
 - No pkg-config support
 - No single-header distribution
 
+And overall - it's a bad cpp library.
 
 ## License
 
