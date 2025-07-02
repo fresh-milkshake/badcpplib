@@ -21,7 +21,7 @@ BadCppLib is a collection of utilities organized into modules. The library uses 
 
 Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/fresh-milkshake/badcpplib
 cd badcpplib
 ```
 
