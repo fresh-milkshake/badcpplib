@@ -229,8 +229,6 @@ g++ -std=c++17 -I./include tests/basic_test.cpp src/badcpplib.cpp -o test_runner
 ./test_runner
 ```
 
-Test output is currently in Russian.
-
 ## Known Issues and Limitations
 
 ### Technical Limitations
