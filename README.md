@@ -253,6 +253,10 @@ g++ -std=c++17 -I./include tests/basic_test.cpp src/badcpplib.cpp -o test_runner
 
 And overall - it's a bad cpp library.
 
+## And the main question: why did i create this?
+
+Because i can.
+
 ## License
 
 This project is distributed under the MIT license. Details can be found in the [LICENSE](LICENSE.txt) file.
